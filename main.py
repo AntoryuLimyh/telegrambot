@@ -4,7 +4,7 @@ import yfinance as yf
 import os
 from dotenv import dotenv_values
 
-APIKEY = dotenv_values(".env")['API_Key']
+#APIKEY = dotenv_values(".env")['API_Key']
 
 
 bot = telebot.TeleBot(APIKEY)
